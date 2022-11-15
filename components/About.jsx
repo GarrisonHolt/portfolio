@@ -1,5 +1,5 @@
 import React from 'react';
-import Image from "next/image";
+
 
 function About() {
     return (
@@ -8,12 +8,12 @@ function About() {
                 <div className='col-span-2'>
                     <p className='uppercase text-xl tracking-widest text-[#5651e5]'>About</p>
                     <h2 className='py-4'>Who I am</h2>
-                    <p className='py-2 text-gray-600'>I spent the last 4 years working in the data field, where I discovered my loved for programming and developing models for data.
-                        I decided that I wanted to take the full plunge in the world of software development and obtained my master’s degree in software
-                        development and learned various front-end and back-end technologies. </p>
+                    <p className='py-2 text-gray-600'>I spent the last 4 years working in the data field, where I discovered my love for programming and developing models for data.
+                        I decided that I wanted to take the full plunge in the world of software development and obtained my master’s degree in Software
+                        Development and learned various front-end and back-end technologies. </p>
 
-                    <p className='py-2 text-gray-600'>I learned JavaScript and quickly found a love for making web applications. I moved to React and express to create full stack applications
-                        using JavaScript. I now spend my time creating applications with React, express, Firebase, MongoDB and other technologies.</p>
+                    <p className='py-2 text-gray-600'>I learned JavaScript and quickly found a love for making web applications. I moved to React and Express to create full stack applications
+                        using JavaScript. I now spend my time creating applications with React, Express, Firebase, MongoDB and other technologies.</p>
 
                     <p className='py-2 text-gray-600 underline cursor-pointer'>Check out some of my work</p>
                 </div>
