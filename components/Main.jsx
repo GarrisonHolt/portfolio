@@ -10,10 +10,9 @@ function Main() {
                 <div>
                     <p className='uppercase text-sm tracking-widest text-gray-600'>Let's build something together</p>
                     <h1 className='py-4 text-gray-700'>Hi, I'm <span className='text-[#5651e5]'>Garrison</span></h1>
-                    <h1 className='py-2 text-gray-700'>A Data Engineer</h1>
+                    <h1 className='py-2 text-gray-700'>A Front-End Engineer</h1>
                     <p className='py-4 text-gray-600 max-w-[70%] m-auto'>
-                        I'm a software engineer specializing in Data. Focused on building data pipelines, models
-                        and applications for data efforts.
+                        I'm a Front-end engineer specializing in React. Focused on building responsive, modern web applications.
                     </p>
                     <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
                         <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-115 ease-in duration-300'>

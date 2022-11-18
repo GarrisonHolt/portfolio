@@ -2,14 +2,16 @@ import React from 'react';
 import Image from "next/image";
 import reactImg from '../public/assets/skills/react.png'
 import pythonImg from '../public/assets/skills/python.png'
-import dbtImg from '../public/assets/skills/dbt.png'
-import dagsterImg from '../public/assets/skills/dagster.png'
+import htmlImg from '../public/assets/skills/html.png'
+import cssImg from '../public/assets/skills/css.png'
+import nodeImg from '../public/assets/skills/node.png'
 import jsImg from '../public/assets/skills/javascript.png'
 import tsImg from '../public/assets/skills/typescript.png'
-import deltaLakeImg from '../public/assets/skills/deltaLake.png'
+import mongoImg from '../public/assets/skills/mongo.png'
 import fbImg from '../public/assets/skills/firebase.png'
-import pandasImg from '../public/assets/skills/pandas.png'
+import expressImg from '../public/assets/skills/express.png'
 import postgresImg from '../public/assets/skills/postgre.png'
+import tailwindImg from '../public/assets/skills/tailwind.png'
 import css from "styled-jsx/css";
 
 
@@ -22,13 +24,14 @@ function Skills() {
                 <h2 className='py-4'>Technologies I Work With</h2>
                 <div className='gird md:grid-cols-2 lg:grid-cols-4 gap-8'></div>
 
+
                 <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
                     <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                         <div className='m-auto'>
-                            <Image src={pythonImg} alt='/' width={64} height={64} />
+                            <Image src={htmlImg }alt='/' width={64} height={64}/>
                         </div>
                         <div className='flex flex-col items-center justify-center'>
-                            <h3>Python</h3>
+                            <h3>HTML</h3>
                         </div>
                     </div>
                 </div>
@@ -36,21 +39,10 @@ function Skills() {
                 <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
                     <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                         <div className='m-auto'>
-                            <Image src={pandasImg} alt='/' width={64} height={64}/>
+                            <Image src={cssImg }alt='/' width={64} height={64}/>
                         </div>
                         <div className='flex flex-col items-center justify-center'>
-                            <h3>Pandas</h3>
-                        </div>
-                    </div>
-                </div>
-
-                <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
-                    <div className='grid grid-cols-2 gap-4 justify-center items-center'>
-                        <div className='m-auto'>
-                            <Image src={dbtImg} alt='/' width={64} height={64}/>
-                        </div>
-                        <div className='flex flex-col items-center justify-center'>
-                            <h3>DBT</h3>
+                            <h3>CSS</h3>
                         </div>
                     </div>
                 </div>
@@ -77,7 +69,6 @@ function Skills() {
                     </div>
                 </div>
 
-
                 <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
                     <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                         <div className='m-auto'>
@@ -88,6 +79,18 @@ function Skills() {
                         </div>
                     </div>
                 </div>
+
+                <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+                    <div className='grid grid-cols-2 gap-4 justify-center items-center'>
+                        <div className='m-auto'>
+                            <Image src={pythonImg} alt='/' width={64} height={64} />
+                        </div>
+                        <div className='flex flex-col items-center justify-center'>
+                            <h3>Python</h3>
+                        </div>
+                    </div>
+                </div>
+
 
                 <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
                     <div className='grid grid-cols-2 gap-4 justify-center items-center'>
@@ -114,10 +117,10 @@ function Skills() {
                 <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
                     <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                         <div className='m-auto'>
-                            <Image src={deltaLakeImg} alt='/' width={64} height={64}/>
+                            <Image src={mongoImg} alt='/' width={64} height={64}/>
                         </div>
                         <div className='flex flex-col items-center justify-center'>
-                            <h3>Delta Lake</h3>
+                            <h3>MongoDB</h3>
                         </div>
                     </div>
                 </div>
@@ -125,10 +128,32 @@ function Skills() {
                 <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
                     <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                         <div className='m-auto'>
-                            <Image src={dagsterImg} alt='/' width={64} height={64}/>
+                            <Image src={nodeImg} alt='/' width={64} height={64}/>
                         </div>
                         <div className='flex flex-col items-center justify-center'>
-                            <h3>Dagster</h3>
+                            <h3>Node.js</h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+                    <div className='grid grid-cols-2 gap-4 justify-center items-center'>
+                        <div className='m-auto'>
+                            <Image src={expressImg} alt='/' width={64} height={64}/>
+                        </div>
+                        <div className='flex flex-col items-center justify-center'>
+                            <h3>Express.js</h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+                    <div className='grid grid-cols-2 gap-4 justify-center items-center'>
+                        <div className='m-auto'>
+                            <Image src={tailwindImg} alt='/' width={64} height={64}/>
+                        </div>
+                        <div className='flex flex-col items-center justify-center'>
+                            <h3>Tailwind</h3>
                         </div>
                     </div>
                 </div>

@@ -9,8 +9,8 @@ function About() {
                     <p className='uppercase text-xl tracking-widest text-[#5651e5]'>About</p>
                     <h2 className='py-4'>Who I am</h2>
                     <p className='py-2 text-gray-600'>I have 4 years working in the data field, where I discovered my love for programming and developing models for data.
-                        I decided that I wanted to take the full plunge in the world of data engineering and obtained my master’s degree in Software
-                        Development and learned various technologies to assist in data collection, modeling and visualization. </p>
+                        I decided that I wanted to take the full plunge in the world of software engineering and obtained my master’s degree in Software
+                        Development and learned various technologies to assist in developing both front-end and back-end applications. </p>
 
                     <p className='py-2 text-gray-600 underline cursor-pointer'>Check out some of my work</p>
                 </div>
