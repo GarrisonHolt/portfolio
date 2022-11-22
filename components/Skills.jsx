@@ -18,8 +18,8 @@ import css from "styled-jsx/css";
 
 function Skills() {
     return (
-        <div className='w-full lg:h-screen p-2'>
-            <div className='max-w-[1240px] mx-auto flex flex-col justify-center h-full'>
+        <div className='w-full lg:h-screen p-2 pt-5'>
+            <div className='max-w-[1240px] mx-auto flex flex-col justify-center h-full pt-[5%]'>
                 <p className='text-xl tracking-widest uppercase text-[#5651e5]'>Skills</p>
                 <h2 className='py-4'>Technologies I Work With</h2>
                 <div className='gird md:grid-cols-2 lg:grid-cols-4 gap-8'></div>
