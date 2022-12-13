@@ -3,12 +3,12 @@ import React from 'react';
 
 function About() {
     return (
-        <div className='w-full md:h-screen p-2 flex items-center py-16'>
+        <div id='about' className='w-full md:h-screen p-2 flex items-center py-16'>
             <div className='max-w-[1240px] m-auto md:grid grid-cols-3 gap-8'>
                 <div className='col-span-2'>
                     <p className='uppercase text-xl tracking-widest text-[#5651e5]'>About</p>
                     <h2 className='py-4'>Who I am</h2>
-                    <p className='py-2 text-gray-600'>I have 4 years working in the data field, where I discovered my love for programming and developing models for data.
+                    <p className='py-2 text-gray-600'>I have 4 working in the data field, where I discovered my love for programming and developing models for data.
                         I decided that I wanted to take the full plunge in the world of software engineering and obtained my master’s degree in Software
                         Development and learned various technologies to assist in developing both front-end and back-end applications. </p>
 
