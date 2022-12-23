@@ -9,8 +9,7 @@ import postgresImg from '../public/assets/skills/postgre.png'
 import dbtImg from '../public/assets/skills/DBT.png'
 import awsImg from '../public/assets/skills/aws.png'
 import snowflakeImg from '../public/assets/skills/snowflake.png'
-import dockerImg from '../public/assets/skills/docker.png'
-import css from "styled-jsx/css";
+import dockerImg from '../public/assets/skills/Docker.png'
 
 
 
